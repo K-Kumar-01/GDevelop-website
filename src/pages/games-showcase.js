@@ -651,14 +651,14 @@ const bannerGames = {
       },
     ],
   },
-  InAndOutNightBurglar: {
+  inAndOutNightBurglar: {
     imageSrc: require('../img/games/in-and-out/banner.png'),
     secondaryImageSrc: require('../img/games/in-and-out/square.png'),
     title: 'In And Out - Night Burglar',
     author: 'Helper Wesley',
     descriptionParagraphs: [
-      'In this game, made for the 7 day VimJam(8 Bits to Infinity), you play as a thief ninja.(yes) And you want money.',
-      "You've heard museums keep expensive things in them, and so off you go."
+      'In this game, made for the 7 day VimJam (8 Bits to Infinity), you play as a thief ninja (yes!)... and you want money. You\'ve heard museums keep expensive things in them, and so off you go.',
+      "Find how to steal all these precious things without getting caught!"
     ],
     links: [
       {
@@ -763,6 +763,10 @@ export default class EducationPage extends React.Component {
             <GenericGameBanner
               t={t}
               game={bannerGames.mikoAdventuresPuffball}
+            />
+            <GenericGameBanner
+              t={t}
+              game={bannerGames.inAndOutNightBurglar}
             />
             <TransparentContainer>
               <BigTitle>And tons of other games!</BigTitle>
