@@ -651,6 +651,22 @@ const bannerGames = {
       },
     ],
   },
+  InAndOutNightBurglar: {
+    imageSrc: require('../img/games/in-and-out/banner.png'),
+    secondaryImageSrc: require('../img/games/in-and-out/square.png'),
+    title: 'In And Out - Night Burglar',
+    author: 'Helper Wesley',
+    descriptionParagraphs: [
+      'In this game, made for the 7 day VimJam(8 Bits to Infinity), you play as a thief ninja.(yes) And you want money.',
+      "You've heard museums keep expensive things in them, and so off you go."
+    ],
+    links: [
+      {
+        linkType: 'Itch.io',
+        link: 'https://helperwesley.itch.io/inandout-night-burglar',
+      },
+    ],
+  },
 };
 
 const groupByNUple = (array, n) => {
