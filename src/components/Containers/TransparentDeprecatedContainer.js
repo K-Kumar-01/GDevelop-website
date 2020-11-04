@@ -5,7 +5,7 @@ const TransparentDeprecatedContainer = styled.div`
   position: relative;
   width: 100%;
   min-height: 20px;
-  opacity: 0.78;
+  opacity: 0.72;
 
   max-width: 1300px;
   margin: auto;
