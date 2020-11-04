@@ -213,7 +213,7 @@ export default class DownloadPage extends React.Component {
               </CenteredRow>
               <ExplanationText>
                 {t(
-                  'Even if GDevelop 4 supports native games, we recommend switching to GDevelop 5 and HTML5 games, which are better supported. Native games will be added to GDevelop 5 later.'
+                  'GDevelop 4 is old and not supported anymore. We recommend switching to GDevelop 5, which is compatible with most GDevelop 4 games, has many new features and an improvement user interface.'
                 )}
               </ExplanationText>
             </TransparentDeprecatedContainer>
