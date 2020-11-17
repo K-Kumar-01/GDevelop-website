@@ -499,6 +499,26 @@ const games = [
 ];
 
 const bannerGames = {
+  flippenRunMike: {
+    imageSrc: require('../img/games/flippen-run-mike/flippen-run-mike-banner.jpg'),
+    secondaryImageSrc: require('../img/games/flippen-run-mike/flippen-run-mike-thumbnail.jpg'),
+    title: 'Flippen Run Mike',
+    author: 'Button Bash Games',
+    descriptionParagraphs: [
+      `Earth is under attack and the "Nazdu" are devouring everyone they can get their hands on. Mike isn't the hero anyone asked for, but he's the one you got. He's hiding in a hole, in his basement, and wants to see this through and survive, so he can go get some fried chicken.`,
+      `Flippen Run Mike is a 2d, cartoony, platforming game were running and hiding are the only options you have. Every enemy is a boss and can end your attempt to keep Mike alive in one hit. Also, who has a map of the sewers?`,
+    ],
+    links: [
+      {
+        link: 'https://www.microsoft.com/en-us/p/flippen-run-mike/9pj0lnchkl8p',
+        linkType: 'Microsoft Store',
+      },
+      {
+        link: 'https://store.steampowered.com/app/1460910/Flippen_Run_Mike/',
+        linkType: 'Steam',
+      },
+    ],
+  },
   spaceWings: {
     imageSrc: require('../img/games/space-wings/space-wings-banner.png'),
     secondaryImageSrc: require('../img/games/space-wings/space-wings-thumb.png'),
@@ -745,8 +765,16 @@ export default class EducationPage extends React.Component {
               game={bannerGames.mightyRune}
               bannerBackgroundPosition={'left top'}
             />
-            <BubBanner />
+            <GenericGameBanner
+              t={t}
+              game={bannerGames.flippenRunMike}
+            />
             <HyperspaceDogfightsBanner />
+            <BubBanner />
+            <GenericGameBanner
+              t={t}
+              game={bannerGames.escapeFromTheCursedCity}
+            />
             <GenericGameBanner
               t={t}
               game={bannerGames.swamp}
@@ -755,10 +783,6 @@ export default class EducationPage extends React.Component {
             <GenericGameBanner t={t} game={bannerGames.spaceWings} />
             <GenericGameBanner t={t} game={bannerGames.karambola} />
             <GenericGameBanner t={t} game={bannerGames.eggventure} />
-            <GenericGameBanner
-              t={t}
-              game={bannerGames.escapeFromTheCursedCity}
-            />
             <GenericGameBanner t={t} game={bannerGames.apixelAdventureLegion} />
             <GenericGameBanner
               t={t}
