@@ -499,6 +499,26 @@ const games = [
 ];
 
 const bannerGames = {
+  uphillClimbRacingNeon: {
+    imageSrc: require('../img/games/uphill-climb-racing-neon/uphill-climb-racing-neon-banner.jpg'),
+    secondaryImageSrc: require('../img/games/uphill-climb-racing-neon/uphill-climb-racing-neon-thumbnail.gif'),
+    title: 'Uphill Climb Racing Neon',
+    author: 'Frolics2dio',
+    descriptionParagraphs: [
+      `Do not let the fuel tank runs out, collect all the items and reach the end of the track without crashing!`,
+      `Want to test your skills in a fun and challenging physics based game? Uphill Climb Racing Neon is an addictive and entertaining hill race game, with lots of levels, challenges and cars to unlock.`,
+    ],
+    links: [
+      {
+        link: 'https://play.google.com/store/apps/details?id=com.frolics2dio.uphillclimb.racing.neon',
+        linkType: 'Play Store',
+      },
+      {
+        link: 'https://youtu.be/YKwz9csWbo8',
+        linkType: 'Youtube Trailer',
+      },
+    ],
+  },
   flippenRunMike: {
     imageSrc: require('../img/games/flippen-run-mike/flippen-run-mike-banner.jpg'),
     secondaryImageSrc: require('../img/games/flippen-run-mike/flippen-run-mike-thumbnail.jpg'),
@@ -764,6 +784,10 @@ export default class EducationPage extends React.Component {
               t={t}
               game={bannerGames.mightyRune}
               bannerBackgroundPosition={'left top'}
+            />
+            <GenericGameBanner
+              t={t}
+              game={bannerGames.uphillClimbRacingNeon}
             />
             <GenericGameBanner
               t={t}
