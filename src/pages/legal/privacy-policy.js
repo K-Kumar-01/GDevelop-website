@@ -88,6 +88,24 @@ We value your trust in providing us your Personal Information, thus we are striv
 
 This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
 
+## Your Rights and Choices in the EEA and Around the World
+
+Where the EU General Data Protection Regulation 2016/679 (“GDPR”) applies to the processing of your personal data, especially when you access the website from a country in the European Economic Area (“EEA”), you have the following rights, subject to some limitations, against us:
+
+* The right to access your personal data;
+* The right to rectify the personal data we hold about you;
+* The right to erase your personal data;
+* The right to restrict our use of your personal data;
+* The right to object to our use of your personal data;
+* The right to receive your personal data in a usable electronic format and transmit it to a third party (also known as the right of data portability); and
+* The right to lodge a complaint with your local data protection authority.
+
+If you would like to exercise any of these rights, you may do so by mailing contact.gdevapp@gmail.com. Please understand, however, the rights enumerated above are not absolute in all cases.
+
+Where the GDPR applies, you also have the right to withdraw any consent you have given to uses of your personal data. If you wish to withdraw consent that you have previously provided to us, you may do so by mailing contact.gdevapp@gmail.com. However, the withdrawal of consent will not affect the lawfulness of processing based on consent before its withdrawal.
+
+We will undertake best efforts to provide these rights to people outside of the EEA as well.
+
 ## Children’s Privacy
 
 These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13. In the case we discover that a child under 13 has provided us with personal information, We immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to do necessary actions.
@@ -99,6 +117,14 @@ We may update our Privacy Policy from time to time. Thus, you are advised to rev
 ## Contact Us
 
 If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at [gdevelop-app-support@googlegroups.com](gdevelop-app-support@googlegroups.com).
+
+## Attribution and License
+
+This Privacy Policy is licensed under Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). It is a derivative work of:
+
+* [Red Hat’s Privacy Policy for the Fedora Project](https://fedoraproject.org/wiki/Legal:PrivacyPolicy), used under CC Attribution-Share Alike 3.0 Unported
+* [The Free Software Foundation’s Privacy Policy](https://www.fsf.org/about/free-software-foundation-privacy-policy), used under Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+* [WordPress.org’s Privacy Policy](https://wordpress.org/about/privacy/), used under Attribution-ShareAlike 2.5 Generic (CC BY-SA 2.5)
             `)}
           />
         </TransparentContainer>

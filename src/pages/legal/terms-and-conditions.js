@@ -62,13 +62,14 @@ Along the same lines, FLORIAN RIVAL cannot always take responsibility for the wa
 
 With respect to FLORIAN RIVAL’s responsibility for your use of the Service, when you’re using the Service, it’s important to bear in mind that although we endeavour to ensure that it is updated and correct at all times, we do rely on third parties to provide information to us so that we can make it available to you. FLORIAN RIVAL accepts no liability for any loss, direct or indirect, you experience as a result of relying wholly on this functionality of the app.
 
+When the website or application is used to produce content, like games or applications, these contents are under the responsibility of their own author. In no event shall FLORIAN RIVAL be liable for any damages arising out of the use of these contents. FLORIAN RIVAL cannot take responsibility of the proper working or lawfulness of these contents. Lawfulness, warranty, limitations, terms and conditions and privacy policies of these contents are the responsibility of their own author.
 
 ## 5. Accuracy of materials
 
 The materials appearing on the Service could include technical, typographical, or photographic errors. FLORIAN RIVAL does not warrant that any of the materials on its website are accurate, complete or current. FLORIAN RIVAL may make changes to the materials contained on its website at any time without notice. However FLORIAN RIVAL does not make any commitment to update the materials.
 
 
-## 5. User Comments Feedback And Other Submissions
+## 6. User Comments Feedback And Other Submissions
 
 If, at our request, you send certain specific submissions (for example contest entries) or without a request from us you send creative ideas, suggestions, proposals, plans, or other materials, whether online, by email, by postal mail, or otherwise (collectively, 'comments'), you agree that we may, at any time, without restriction, edit, copy, publish, distribute, translate and otherwise use in any medium any comments that you forward to us. We are and shall be under no obligation (1) to maintain any comments in confidence; (2) to pay compensation for any comments; or (3) to respond to any comments.
 
@@ -76,18 +77,19 @@ We may, but have no obligation to, monitor, edit or remove content that we deter
 
 You agree that your comments will not violate any right of any third-party, including copyright, trademark, privacy, personality or other personal or proprietary right. You further agree that your comments will not contain libelous or otherwise unlawful, abusive or obscene material, or contain any computer virus or other malware that could in any way affect the operation of the Service or any related website. You may not use a false e-mail address, pretend to be someone other than yourself, or otherwise mislead us or third-parties as to the origin of any comments. You are solely responsible for any comments you make and their accuracy. We take no responsibility and assume no liability for any comments posted by you or any third-party.
 
+When the website or application is used to produce content, like games or applications, comments published on these services are under the responsibility of their own author. We assume no liability for any comments posted on third-party services, games or applications.
 
-## 6. Personal Information
+## 7. Personal Information
 
-Your submission of personal information through the store is governed by our Privacy Policy.
+Your submission of personal information through this website, related websites and related applications is governed by our Privacy Policy, which is accessible at https://gdevelop-app.com/legal/privacy-policy
 
 
-## 7. Updates to the Service
+## 8. Updates to the Service
 
 At some point, we may wish to update the Service. The applications and websites of the Service is currently available on Android, iOS, Windows, macOS, Linux – the requirements for these systems (and for any additional systems we decide to extend the availability of the app to) may change, and you’ll need to download the updates if you want to keep using the Service. FLORIAN RIVAL does not promise that it will always update the Service so that it is relevant to you and/or works with the operating system version that you have installed on your device. We may also wish to stop providing the Service, and may terminate use of it at any time without giving notice of termination to you. Unless we tell you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must stop using the Service, and (if needed) delete it from your device.
 
 
-## 8. Prohibited uses
+## 9. Prohibited uses
 
 In addition to other prohibitions as set forth in the Terms of Service, you are prohibited from using the site or its content:
 
@@ -103,7 +105,7 @@ In addition to other prohibitions as set forth in the Terms of Service, you are 
 
 We reserve the right to terminate your use of the Service or any related website for violating any of the prohibited uses.
 
-## 9. Optional Tools
+## 10. Optional Tools
 
 We may provide you with access to third-party tools over which we neither monitor nor have any control nor input.
 
@@ -114,26 +116,28 @@ Any use by you of optional tools offered through the site is entirely at your ow
 We may also, in the future, offer new services and/or features through the applications and websites (including, the release of new tools and resources). Such new features and/or services shall also be subject to these Terms of Service.
 
 
-## 10. Third Party Links and Content
+## 11. Third Party Links and Content
 
 Certain content, products and services available via our Service may include materials from third-parties.
 
 Third-party links on this site may direct you to third-party websites that are not affiliated with us. We are not responsible for examining or evaluating the content or accuracy and we do not warrant and will not have any liability or responsibility for any third-party materials or websites, or for any other materials, products, or services of third-parties.
 
-We are not liable for any harm or damages related to the purchase or use of goods, services, resources, content, or any other transactions made in connection with any third-party websites. Please review carefully the third-party's policies and practices and make sure you understand them before you engage in any transaction. Complaints, claims, concerns, or questions regarding third-party products should be directed to the third-party.
+We are not liable for any harm or damages related to the purchase or use of goods, games, services, resources, content, or any other transactions or usage made in connection with any third-party content. Please review carefully the third-party's policies and practices and make sure you understand them before you engage in any transaction or usage. Complaints, claims, concerns, or questions regarding third-party products should be directed to the third-party.
+
+In particular, we are not liable for any harm or damages related to the use of any game, content, data or piece of software generated with the GDevelop application. Any content created using GDevelop and their distribution is the responsibility of their author.
 
 
-## 11. Indemnification
+## 12. Indemnification
 
 You agree to indemnify, defend and hold harmless FLORIAN RIVAL and our parent, subsidiaries, affiliates, partners, officers, directors, agents, contractors, licensors, service providers, subcontractors, suppliers, interns and employees, harmless from any claim or demand, including reasonable attorneys’ fees, made by any third-party due to or arising out of your breach of these Terms of Service or the documents they incorporate by reference, or your violation of any law or the rights of a third-party.
 
 
-## 12. Severability
+## 13. Severability
 
 In the event that any provision of these Terms of Service is determined to be unlawful, void or unenforceable, such provision shall nonetheless be enforceable to the fullest extent permitted by applicable law, and the unenforceable portion shall be deemed to be severed from these Terms of Service, such determination shall not affect the validity and enforceability of any other remaining provisions.
 
 
-## 13. Termination
+## 14. Termination
 
 The obligations and liabilities of the parties incurred prior to the termination date shall survive the termination of this agreement for all purposes.
 
@@ -142,7 +146,7 @@ These Terms of Service are effective unless and until terminated by either you o
 If in our sole judgment you fail, or we suspect that you have failed, to comply with any term or provision of these Terms of Service, we also may terminate this agreement at any time without notice and you will remain liable for all amounts due up to and including the date of termination; and/or accordingly may deny you access to our Services (or any part thereof).
 
 
-## 14. Entire Agreement
+## 15. Entire Agreement
 
 The failure of us to exercise or enforce any right or provision of these Terms of Service shall not constitute a waiver of such right or provision.
 
@@ -151,12 +155,12 @@ These Terms of Service and any policies or operating rules posted by us on this 
 Any ambiguities in the interpretation of these Terms of Service shall not be construed against the drafting party.
 
 
-## 15. Governing Laws
+## 16. Governing Laws
 
 These Terms of Service and any separate agreements whereby we provide you Services shall be governed by and construed in accordance with the laws of France.
 
 
-## 16. Changes to This Terms and Conditions
+## 17. Changes to This Terms and Conditions
 
 We may update our Terms and Conditions from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Terms and Conditions on this page. These changes are effective immediately after they are posted on this page. By using this Service you are agreeing to be bound by the then current version of these terms of service.
 
