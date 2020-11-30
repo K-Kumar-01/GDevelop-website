@@ -78,7 +78,7 @@ export default class FeaturesPage extends React.Component {
               <WhiteHugeTitle>{t('Examples and Starters')}</WhiteHugeTitle>
               <WhiteParagraph>
                 {t(
-                  'GDevelop is bundled with 80+ examples and starters to get you quickly started, learn or try a specific feature.'
+                  'GDevelop is bundled with 120+ examples and starters to get you quickly started, learn or try a specific feature.'
                 )}
               </WhiteParagraph>
             </BannerContainer>
