@@ -166,6 +166,13 @@ export default class DownloadPage extends React.Component {
                   {t('Open the Discord chat')}
                 </BigGhostButton>
               </CenteredRow>
+              <Paragraph>
+                <MarkdownText
+                  source={t(
+                    'You can also [download GDevelop as a torrent](https://fosstorrents.com/games/gdevelop/). Thanks to fosstorrents.com for managing these torrents.'
+                  )}
+                />
+              </Paragraph>
               <BigTitle>{t('Contribute to GDevelop')}</BigTitle>
               <Paragraph>
                 {t(
