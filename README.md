@@ -2,7 +2,7 @@
 
 This is the repository for the new website for **[GDevelop](https://gdevelop-app.com)**, the open source game creator requiring no programming skills.
 
-Any contribution, design or wording enhancements is welcome! Open issues if you having anything to say or, even better, submit a pull request. You can also discuss with the community on **[GDevelop forums](http://forum.compilgames.net)**.
+Any contribution, design or wording enhancements is welcome! Open issues if you having anything to say or, even better, submit a pull request. You can also discuss with the community on **[GDevelop forums](http://forum.gdevelop-app.com)**.
 
 If you want to **translate the website to your language**, just go on [the Crowdin translation project](https://crowdin.com/project/gdevelop-website)!
 
