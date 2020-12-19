@@ -8,6 +8,8 @@ import Row from './Grid/Row';
 import Column from './Grid/Column';
 import footerBackground from '../img/footer-background.jpg';
 import config from '../config';
+import CenteredRow from './Grid/CenteredRow';
+import Spacer from './Grid/Spacer';
 
 const FooterContainer = styled.div`
   background-color: #423352;
@@ -87,6 +89,13 @@ export default ({ t }) => (
           'GDevelop is an open-source game creator, tailored for fast and intuitive game making.'
         )}
       </FooterText>
+      <CenteredRow>
+        <FooterLink to="/choose-language" noLangPathPrefix>
+          <FontAwesomeIcon icon={faLanguage} />{' '}
+          {t('This website in your language')}
+        </FooterLink>
+      </CenteredRow>
+      <Spacer height="10px" />
       <Row>
         <Column>
           <FooterTitle>Get GDevelop</FooterTitle>
@@ -145,15 +154,18 @@ export default ({ t }) => (
             {t('Twitter')}
           </FooterLink>
           <FooterLink
+            to={config.youtubeUrl}
+            category="youtube"
+            label="footer-youtube-page"
+          >
+            {t('YouTube')}
+          </FooterLink>
+          <FooterLink
             to={"/blog"}
             category="blog"
             label="footer-blog"
           >
             {t('Blog')}
-          </FooterLink>
-          <FooterLink to="/choose-language" noLangPathPrefix>
-            <FontAwesomeIcon icon={faLanguage} />{' '}
-            {t('This website in your language')}
           </FooterLink>
         </Column>
         <Column>

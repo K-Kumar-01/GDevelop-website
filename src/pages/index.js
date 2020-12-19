@@ -105,6 +105,13 @@ export default class IndexPage extends React.Component {
                       {t('Download')}
                     </WhiteBigButton>
                   </CenteredRow>
+                  <WhiteParagraph textAlign="center">
+                    <MarkdownText
+                      source={t(
+                        'Join the community on [Discord](https://discord.gg/rjdYHvj) and our [forums](https://forum.gdevelop-app.com).'
+                      )}
+                    />
+                  </WhiteParagraph>
                 </CenteredColumn>
               </Row>
             </LandingContainer>
@@ -257,6 +264,11 @@ export default class IndexPage extends React.Component {
                   source={t(
                     '[Tons of examples](/game-examples-starters) are also available and ready to be tried in one click.'
                   )}
+                />{' '}
+                <MarkdownText
+                  source={t(
+                    'Watch tutorials on our [Youtube Channel](https://www.youtube.com/channel/UCmoHIfIerKCZkOOt6zr9inw).'
+                  )}
                 />
               </Paragraph>
               <CenteredRow>
@@ -265,7 +277,14 @@ export default class IndexPage extends React.Component {
                   target="_blank"
                   rel="noopener"
                 >
-                  {t('Create a platform game')}
+                  {t('Create a Platformer')}
+                </BigGhostButton>
+                <BigGhostButton
+                  to="http://wiki.compilgames.net/doku.php/gdevelop5/tutorials/space-shooter/start"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  {t('Create a Space Shooter')}
                 </BigGhostButton>
                 <BigGhostButton
                   to="http://wiki.compilgames.net/doku.php/gdevelop5/tutorials/geometry-monster"

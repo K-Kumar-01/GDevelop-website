@@ -5,6 +5,9 @@ import faWindows from '@fortawesome/fontawesome-free-brands/faWindows';
 import faApple from '@fortawesome/fontawesome-free-brands/faApple';
 import faLinux from '@fortawesome/fontawesome-free-brands/faLinux';
 import faChrome from '@fortawesome/fontawesome-free-brands/faChrome';
+import faYoutube from '@fortawesome/fontawesome-free-brands/faYoutube';
+import faDiscord from '@fortawesome/fontawesome-free-brands/faDiscord';
+import faDiscourse from '@fortawesome/fontawesome-free-brands/faDiscourse';
 
 import Navbar, { NavBarSpacer } from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -17,6 +20,7 @@ import TransparentContainer from '../components/Containers/TransparentContainer'
 import TransparentDeprecatedContainer from '../components/Containers/TransparentDeprecatedContainer';
 import WhiteHugeTitle from '../components/WhiteHugeTitle';
 import WhiteParagraph from '../components/WhiteParagraph';
+import SkewedBackgroundContainer from '../components/Containers/SkewedBackgroundContainer';
 import config from '../config';
 
 import CenteredRow from '../components/Grid/CenteredRow';
@@ -26,6 +30,7 @@ import BigTitle from '../components/BigTitle';
 import ExplanationText from '../components/ExplanationText';
 import MarkdownText from '../components/MarkdownText';
 import { renderWebMonetizationMeta } from '../lib/WebMonetization';
+import WhiteBigButton from '../components/WhiteBigButton';
 
 export default class DownloadPage extends React.Component {
   state = {
@@ -65,12 +70,7 @@ export default class DownloadPage extends React.Component {
               <Paragraph>
                 {t(
                   'GDevelop runs on Windows, macOS and most recent Linux distributions. You can also try it online using Chrome, Firefox or another recent web browser.'
-                )}{' '}
-                <MarkdownText
-                  source={t(
-                    "Wonder what's new in latest versions? Find the release notes in the app or [online](https://github.com/4ian/GDevelop/releases)."
-                  )}
-                />
+                )}
               </Paragraph>
               <CenteredRow>
                 <BigButton
@@ -135,44 +135,68 @@ export default class DownloadPage extends React.Component {
                 <Spacer height="25px" />
               )}
               <Paragraph>
-                {t('To create your first game, start by reading a tutorial:')}
+                <MarkdownText
+                  source={t(
+                    'You can also [download GDevelop as a torrent](https://fosstorrents.com/games/gdevelop/). Thanks to fosstorrents.com for managing these torrents.'
+                  ) + ' ' + t(
+                    "Wonder what's new in latest versions? Find the release notes in the app or [online](https://github.com/4ian/GDevelop/releases)."
+                  )}
+                />
               </Paragraph>
+                <Spacer height="25px" />
+            </TransparentContainer>
+            <SkewedBackgroundContainer>
+              <BigTitle white>
+                {t('Getting started')}
+              </BigTitle>
+              <WhiteParagraph>
+                {t('To create your first game, start by reading or watching a tutorial:')}
+              </WhiteParagraph>
               <CenteredRow>
-                <BigGhostButton
+                <WhiteBigButton
                   to="http://wiki.compilgames.net/doku.php/gdevelop5/tutorials/platform-game/start"
                   target="_blank"
                   rel="noopener"
                 >
-                  {t('Create a platformer game')}
-                </BigGhostButton>
-                <BigGhostButton
-                  to="http://wiki.compilgames.net/doku.php/gdevelop5/tutorials/tank-shooter"
+                  {t('Create a Platformer')}
+                </WhiteBigButton>
+                <WhiteBigButton
+                  to="http://wiki.compilgames.net/doku.php/gdevelop5/tutorials/space-shooter/start"
                   target="_blank"
                   rel="noopener"
                 >
-                  {t('Create a tank shooter game')}
-                </BigGhostButton>
+                  {t('Create a Space Shooter')}
+                </WhiteBigButton>
+                <WhiteBigButton
+                  to="http://wiki.compilgames.net/doku.php/gdevelop5/tutorials/geometry-monster"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  {t('Create a casual mobile game')}
+                </WhiteBigButton>
+                <WhiteBigButton
+                  to={config.youtubeUrl}
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <FontAwesomeIcon icon={faYoutube} /> {t('Youtube Channel')}
+                </WhiteBigButton>
               </CenteredRow>
-              <Paragraph>
+              <WhiteParagraph>
                 {t(
                   'The forum and the Discord chat are the place to get and provide help to other GDevelop users!'
                 )}
-              </Paragraph>
+              </WhiteParagraph>
               <CenteredRow>
-                <BigGhostButton to={config.forumUrl}>
-                  {t('Go to the community forum')}
-                </BigGhostButton>
-                <BigGhostButton to={config.discordUrl}>
-                  {t('Open the Discord chat')}
-                </BigGhostButton>
+                <WhiteBigButton to={config.forumUrl}>
+                <FontAwesomeIcon icon={faDiscourse} /> {t('Go to the community forum')}
+                </WhiteBigButton>
+                <WhiteBigButton to={config.discordUrl}>
+                <FontAwesomeIcon icon={faDiscord} /> {t('Open the Discord chat')}
+                </WhiteBigButton>
               </CenteredRow>
-              <Paragraph>
-                <MarkdownText
-                  source={t(
-                    'You can also [download GDevelop as a torrent](https://fosstorrents.com/games/gdevelop/). Thanks to fosstorrents.com for managing these torrents.'
-                  )}
-                />
-              </Paragraph>
+            </SkewedBackgroundContainer>
+            <TransparentContainer>
               <BigTitle>{t('Contribute to GDevelop')}</BigTitle>
               <Paragraph>
                 {t(
