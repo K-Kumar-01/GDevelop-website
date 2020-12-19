@@ -4,6 +4,7 @@ import Helmet from 'react-helmet';
 import Navbar, { NavBarSpacer } from '../components/Navbar';
 import Footer from '../components/Footer';
 import PageContainer from '../lib/PageContainer';
+import favicon from '../img/favicon.ico'
 
 import BigTitle from '../components/BigTitle';
 import Paragraph from '../components/Paragraph';
@@ -63,6 +64,7 @@ export default class IndexPage extends React.Component {
                 content="Create your own games with GDevelop: an open-source game creator. No programming skills are required! Quickly build and share your games on mobile (Android and iOS), desktop and on the web."
               />
               {renderWebMonetizationMeta()}
+              <link rel="icon" href={favicon} />
             </Helmet>
             <Navbar t={t} />
             <LandingContainer>
